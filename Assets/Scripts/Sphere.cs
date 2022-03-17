@@ -1,7 +1,8 @@
 using UnityEngine;
 
-public class Sphere : Shape
+public class Sphere : Shape // INHERITANCE
 {
+    // POLYMORPHISM
     public override void DisplayText()
     {
         base.DisplayText();

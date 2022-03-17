@@ -1,9 +1,10 @@
 using UnityEngine;
 
+// ABSTRACTION
 public abstract class Shape : MonoBehaviour
 {
     [SerializeField] private Color _color = Color.green;
-    public string ShapeName { get; private set; } = "Shape";
+    public string ShapeName { get; private set; } = "Shape"; // ENCAPSULATION
 
     private void Start()
     {
